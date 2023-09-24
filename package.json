@@ -1,0 +1,69 @@
+{
+  "name": "nutrition-care",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.5",
+    "date-fns": "^1.30.1",
+    "firebase": "^6.6.2",
+    "firebaseui": "^4.3.0",
+    "fragment": "^0.3.0",
+    "printd": "^1.4.1",
+    "secure-ls": "^1.2.5",
+    "vee-validate": "^2.2.13",
+    "vue": "^2.6.10",
+    "vue-fragment": "^1.5.1",
+    "vue-google-charts": "^0.3.2",
+    "vue-router": "^3.0.3",
+    "vuetify": "^2.0.0",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "deepmerge": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.1",
+    "jspdf": "^1.5.3",
+    "material-design-icons-iconfont": "^5.0.1",
+    "sass": "^1.22.7",
+    "sass-loader": "^7.1.0",
+    "vue-chartjs": "^3.5.0",
+    "vue-cli-plugin-vuetify": "^0.6.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
